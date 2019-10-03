@@ -1,0 +1,14 @@
+1 - Configurar nome no git : git config --global user.name "Matheus Ribeiro"
+2 - Configurar email no git: git config --global user.email matheus.ribeiro100@hotmail.com
+3 - Entrar em algum projeto e clonar ele: git clone https://github.com/MatheusRibeiro100/StartSales.git
+4 - Entrar na pasta e dar o comando "git status"
+5 - Se faltar colocar arquivos para adicionar, rodar o comando "git add ."
+6 - Após adicionar o arquivo, rodar o comando:  "git commit -m "Texto do commit"
+7 - Depois, rodar o comando "git push origin master"
+8 - Logo após verificar todos esses processos, sempre que iniciar o git, rodar o comando "git pull" para pegar o arquivo mais atualizado
+
+
+criando Branches: 
+1 - quando você fizer uma alteração no seu código e tiver rodado o "git add ." e logo após ter usado o "git commit -m" será necessário utilizar o comando: git checkout -b Desenvolvimento
+2 - voltar para outra branche: git checkout "nome da branch"
+3 - para unir duas branch, necessário rodar o comando: git merge "nome da branch
